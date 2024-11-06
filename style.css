@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    height: 605px;
+    width: 100%;
+    p{
+        width: 550px;
+        height: 46px;
+        gap: 0px;
+        opacity: 0px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23.48px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    h1{
+        background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+        width: 434px;
+        height: 47px;
+        gap: 0px;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 46.96px;
+        text-align: left;
+    }    
+}
+
+.banner{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%), url(./assets/images/banner.png);
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content{
+    width: 600px;
+    height: 460px;
+    top: 56px;
+    left: 465px;
+    gap: 16px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #31a8dd;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 234px;
+    height: 50px;
+    font-weight: 900;
+    line-height: 18.78px;
+    letter-spacing: 0.21em;
+    text-align: center;
+    color: #31A8DD;
+  }
+  
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+main{
+    height: 1400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#course-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 792px;
+    height: 325px;
+    top: 723px;
+    left: 324px;
+    gap: 24px;
+    opacity: 0px;
+    h2{
+        width: 477px;
+        height: 38px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Raleway;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 37.57px;
+        letter-spacing: 0.19em;
+        text-align: left;
+        color: #33A8DB;
+    }
+    p{
+        color: white;
+    }
+}
+
+.modules-list{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.module{
+    width: Fixed (535px)px;
+    height: Hug (51px)px;
+    padding: 16px 127px 16px 127px;
+    gap: 10px;
+    border-radius: 57px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #252525;
+    border: 1px solid #33A8DB;
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+    color: white;
+    span{
+        color:#33A8DB;
+    }
+}
+
+#transform-world{
+    background-size: cover;
+    background-image: url("./assets/images/woman-code.png");
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+    top: 1138px;
+    gap: 0px;
+    border: 1px 1px 1px 0px;
+    opacity: 0px;
+    border-width: 1px, 1px, 1px, 0px;
+    border-style: solid;
+    border-color: #33A8DB;
+    p{
+        padding: 70px;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 40px;
+        text-align: left;
+        color: #FFFFFF;
+        width: 244px;
+        height: 141px;
+        top: 111px;
+        left: 198px;
+        text-transform: lowercase;
+    }
+}
+
+#professional-challenges h2{
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    width: 746px;
+    height: 76px;
+    top: 1577px;
+    left: 347px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#professional-challenges p{
+    color: white;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    width: 792px;
+    height: 76px;
+    top: 2154px;
+    left: 324px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+footer{
+    width: 100%;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    padding: 60px 0;
+    text-align: center;
+    border-top: 1px solid #33A8DB80;
+
+    footer .dio-logo{
+        width: 300px;
+    }
+
+    footer a{
+        font-weight: bold;
+        color: #33A8DB;
+        text-decoration: none;
+    }
+}
